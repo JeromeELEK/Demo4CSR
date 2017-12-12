@@ -1,12 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_--OEMd9XEee57PKHRHWn8Q" label="Demo4CSR" language="java" technicalLabel="DEMO4CSR" author="_--OEMt9XEee57PKHRHWn8Q" productVersion="Talend Integration Cloud Elastic Edition-6.4.1.20170623_1246" url="{&quot;location&quot;:&quot;https://github.com/JeromeELEK/Demo4CSR&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" bigData="false">
+  <TalendProperties:Project xmi:id="_--OEMd9XEee57PKHRHWn8Q" label="Demo4CSR" language="java" technicalLabel="DEMO4CSR" author="_--OEMt9XEee57PKHRHWn8Q" productVersion="Talend Integration Cloud Elastic Edition-6.4.1.20170623_1246" url="{&quot;location&quot;:&quot;https://github.com/JeromeELEK/Demo4CSR&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
     <technicalStatus xmi:id="__ur30N9XEee57PKHRHWn8Q" label="development" code="DEV"/>
     <technicalStatus xmi:id="__ur30d9XEee57PKHRHWn8Q" label="testing" code="TEST"/>
     <technicalStatus xmi:id="__ur30t9XEee57PKHRHWn8Q" label="production" code="PROD"/>
     <documentationStatus xmi:id="__uj8AN9XEee57PKHRHWn8Q" label="unchecked" code="UCK"/>
     <documentationStatus xmi:id="__uj8Ad9XEee57PKHRHWn8Q" label="checked" code="CHK"/>
     <documentationStatus xmi:id="__uj8At9XEee57PKHRHWn8Q" label="validated" code="VAL"/>
+    <ItemsRelations xmi:id="_rOSD8N9ZEeeio4z98fxhZA">
+      <baseItem xmi:id="_rOSD8d9ZEeeio4z98fxhZA" id="_XJIwEN9YEee57PKHRHWn8Q" version="0.1" type="job"/>
+      <relatedItems xmi:id="_rOSD8t9ZEeeio4z98fxhZA" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_rOSD899ZEeeio4z98fxhZA" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_rOSD9N9ZEeeio4z98fxhZA" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_rOSD9d9ZEeeio4z98fxhZA" id="DataMasking" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_rOSD9t9ZEeeio4z98fxhZA" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_rOSD999ZEeeio4z98fxhZA" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_rOSD-N9ZEeeio4z98fxhZA" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_rOSD-d9ZEeeio4z98fxhZA" id="DqStringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_rOSD-t9ZEeeio4z98fxhZA" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_rOSD-99ZEeeio4z98fxhZA" id="DataQuality" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_rOSD_N9ZEeeio4z98fxhZA" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_rOSD_d9ZEeeio4z98fxhZA" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_rOSD_t9ZEeeio4z98fxhZA" id="DQTechnical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_rOSD_99ZEeeio4z98fxhZA" id="TalendStringUtil" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_rOSEAN9ZEeeio4z98fxhZA" id="DataQualityDependencies" version="Latest" type="routine"/>
+    </ItemsRelations>
     <migrationTask xmi:id="__tV0AN9XEee57PKHRHWn8Q" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="__tV0Ad9XEee57PKHRHWn8Q" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="__tV0At9XEee57PKHRHWn8Q" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
@@ -150,7 +168,6 @@
     <migrationTask xmi:id="_AbtV9t9YEee57PKHRHWn8Q" id="org.talend.designer.mapper.migration.TMapSaveToEmfMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_AbtV999YEee57PKHRHWn8Q" id="org.talend.designer.dbmap.migration.ELTMapSaveToEmfMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_AbtV-N9YEee57PKHRHWn8Q" id="org.talend.designer.xmlmap.migration.TXMLMapChangeAllInOneValueMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
-    <migrationTask xmi:id="_AbtV-d9YEee57PKHRHWn8Q" id="org.talend.repository.model.migration.FixProjectResourceLink" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_AbtV-t9YEee57PKHRHWn8Q" id="org.talend.repository.model.migration.ResetValuetInfiniteLoop" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_AbtV-99YEee57PKHRHWn8Q" id="org.talend.repository.model.migration.UpgrateDatabaseTypeForSybaseConnection" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_AbtV_N9YEee57PKHRHWn8Q" id="org.talend.repository.model.migration.RenamePasswordParaForLdapMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
@@ -360,6 +377,7 @@
     <migrationTask xmi:id="_Abt9ld9YEee57PKHRHWn8Q" id="org.talend.datacleansing.core.migration.UpdateTMultiPatternTableParamTask" breaks="6.4.0" version="6.4.0" status="noimpact"/>
     <migrationTask xmi:id="_Abt9lt9YEee57PKHRHWn8Q" id="org.talend.repository.model.migration.AddFailOnErrorOnTFileCopyTDI38441" breaks="6.3.1" version="6.4.0" status="noimpact"/>
     <migrationTask xmi:id="_Abt9l99YEee57PKHRHWn8Q" id="org.talend.repository.model.migration.SetSparkDataframeAlphabeticalSortOrder" breaks="6.1.0" version="6.1.0" status="noimpact"/>
+    <migrationTask xmi:id="_AbtV-d9YEee57PKHRHWn8Q" id="org.talend.repository.model.migration.FixProjectResourceLink" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_Abt9mN9YEee57PKHRHWn8Q" id="org.talend.repository.model.migration.AutoUpdateRelationsMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_--OEMt9XEee57PKHRHWn8Q" login="jelek@jel.talend.com" firstName="Jerome" lastName="Elek" type="DI"/>
