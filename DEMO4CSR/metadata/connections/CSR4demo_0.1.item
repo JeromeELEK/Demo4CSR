@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_CXHhIN_xEeeio4z98fxhZA" name="CSR4demo" id="_MJvHMN_wEeeio4z98fxhZA" label="CSR4demo" dataPackage="_Cbx-sN_xEeeio4z98fxhZA" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://csr4demo.cgodislux5bg.eu-west-1.rds.amazonaws.com:3306/CSR4DEMO?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="3306" Username="root" Password="6HzEA8uTghTp5w1A/VG7xw==" ServerName="csr4demo.cgodislux5bg.eu-west-1.rds.amazonaws.com" DatasourceName="" FileFieldName="" SID="CSR4DEMO" SqlSynthax="Syntaxe SQL" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_CXIIMN_xEeeio4z98fxhZA" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_CXYm4N_xEeeio4z98fxhZA" tag="package filter" value=""/>
+    <taggedValue xmi:id="_CXetgN_xEeeio4z98fxhZA" tag="Status" value=""/>
+    <taggedValue xmi:id="_CXetgd_xEeeio4z98fxhZA" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_CXetgt_xEeeio4z98fxhZA" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_CXetg9_xEeeio4z98fxhZA" tag="Description" value=""/>
+    <taggedValue xmi:id="_CXethN_xEeeio4z98fxhZA" tag="Author" value=""/>
+    <taggedValue xmi:id="_CXethd_xEeeio4z98fxhZA" tag="otherParameter"/>
+    <taggedValue xmi:id="_CZijAN_xEeeio4z98fxhZA" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_CZijAd_xEeeio4z98fxhZA" tag="DB ProductVersion" value="5.6.37-log"/>
+    <taggedValue xmi:id="_CZijAt_xEeeio4z98fxhZA" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_CXIvQN_xEeeio4z98fxhZA" key="CONN_PARA_KEY_USERNAME" value="root"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_Cbx-sN_xEeeio4z98fxhZA" name="CSR4DEMO" dataManager="_CXHhIN_xEeeio4z98fxhZA"/>
+</xmi:XMI>
