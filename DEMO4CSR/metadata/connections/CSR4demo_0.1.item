@@ -46,8 +46,7 @@
     </ownedElement>
     <ownedElement xsi:type="relational:TdTable" xmi:id="_vCLPYODlEee5gvZ2YrhsEA" name="directors" id="_vCFIwODlEee5gvZ2YrhsEA" label="directors" tableType="TABLE">
       <taggedValue xmi:id="_vCLPYeDlEee5gvZ2YrhsEA" tag="Comment" value=""/>
-      <taggedValue xmi:id="_vCLPYuDlEee5gvZ2YrhsEA" tag="Comment" value=""/>
-      <feature xsi:type="relational:TdColumn" xmi:id="_vCLPY-DlEee5gvZ2YrhsEA" name="id" label="id" length="10" sourceType="INT" talendType="id_Integer" key="true" nullable="false">
+      <feature xsi:type="relational:TdColumn" xmi:id="_vCLPY-DlEee5gvZ2YrhsEA" name="id" label="id" length="-1" sourceType="VARCHAR" talendType="id_String" key="true" nullable="false">
         <taggedValue xmi:id="_vCLPZODlEee5gvZ2YrhsEA" tag="Comment" value=""/>
         <initialValue xsi:type="relational:TdExpression" xmi:id="_vCLPZeDlEee5gvZ2YrhsEA" body="0" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_vCLPZuDlEee5gvZ2YrhsEA" name="INT" numericPrecisionRadix="10" javaDataType="4"/>
