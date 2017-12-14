@@ -18,7 +18,6 @@
   <orgomg.cwm.resource.relational:Catalog xmi:id="_MhnZsOAGEeeio4z98fxhZA" name="CSR4DEMO" dataManager="_CXHhIN_xEeeio4z98fxhZA">
     <ownedElement xsi:type="relational:TdTable" xmi:id="_Y7VIYOAGEeeio4z98fxhZA" name="movies" id="_Y7ReAOAGEeeio4z98fxhZA" label="movies" tableType="TABLE">
       <taggedValue xmi:id="_Y7VIYeAGEeeio4z98fxhZA" tag="Comment" value=""/>
-      <taggedValue xmi:id="_Y7VIYuAGEeeio4z98fxhZA" tag="Comment" value=""/>
       <feature xsi:type="relational:TdColumn" xmi:id="_Y7VIY-AGEeeio4z98fxhZA" name="movieID" label="movieID" length="10" sourceType="INT" talendType="id_Integer" key="true" nullable="false">
         <taggedValue xmi:id="_Y7VIZOAGEeeio4z98fxhZA" tag="Comment" value=""/>
         <initialValue xsi:type="relational:TdExpression" xmi:id="_Y7VIZeAGEeeio4z98fxhZA" body="0" language="COLUMN_DEF"/>
@@ -43,6 +42,20 @@
         <taggedValue xmi:id="_Y7VIdOAGEeeio4z98fxhZA" tag="Comment" value=""/>
         <initialValue xsi:type="relational:TdExpression" xmi:id="_Y7VIdeAGEeeio4z98fxhZA" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_Y7VIduAGEeeio4z98fxhZA" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_vCLPYODlEee5gvZ2YrhsEA" name="directors" id="_vCFIwODlEee5gvZ2YrhsEA" label="directors" tableType="TABLE">
+      <taggedValue xmi:id="_vCLPYeDlEee5gvZ2YrhsEA" tag="Comment" value=""/>
+      <taggedValue xmi:id="_vCLPYuDlEee5gvZ2YrhsEA" tag="Comment" value=""/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vCLPY-DlEee5gvZ2YrhsEA" name="id" label="id" length="10" sourceType="INT" talendType="id_Integer" key="true" nullable="false">
+        <taggedValue xmi:id="_vCLPZODlEee5gvZ2YrhsEA" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_vCLPZeDlEee5gvZ2YrhsEA" body="0" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_vCLPZuDlEee5gvZ2YrhsEA" name="INT" numericPrecisionRadix="10" javaDataType="4"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vCLPZ-DlEee5gvZ2YrhsEA" name="director" label="director" length="100" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_vCLPaODlEee5gvZ2YrhsEA" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_vCLPaeDlEee5gvZ2YrhsEA" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_vCLPauDlEee5gvZ2YrhsEA" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
       </feature>
     </ownedElement>
   </orgomg.cwm.resource.relational:Catalog>
