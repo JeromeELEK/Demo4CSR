@@ -227,7 +227,7 @@
         <mapperTableEntries name="directorID" type="id_String" nullable="true"/>
       </inputTables>
       <inputTables sizeState="INTERMEDIATE" name="row2" activateExpressionFilter="true" activateCondensedTool="true" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE" innerJoin="true">
-        <mapperTableEntries name="id" expression="row1.directorID " type="id_Integer" operator="="/>
+        <mapperTableEntries name="id" expression="row1.directorID " type="id_String" operator="="/>
         <mapperTableEntries name="director" type="id_String" nullable="true"/>
       </inputTables>
     </nodeData>
@@ -323,7 +323,7 @@
     <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="directors" name="tMysqlInput_2">
-      <column comment="" defaultValue="0" key="true" length="10" name="id" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+      <column comment="" defaultValue="0" key="true" length="-1" name="id" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="100" name="director" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
