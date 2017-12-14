@@ -212,11 +212,11 @@
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="out">
-        <mapperTableEntries name="movieID" type="id_Integer"/>
-        <mapperTableEntries name="title" type="id_String" nullable="true"/>
-        <mapperTableEntries name="releaseYear" type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="url" type="id_String" nullable="true"/>
-        <mapperTableEntries name="directorID" type="id_String" nullable="true"/>
+        <mapperTableEntries name="movieID" expression="row1.movieID" type="id_Integer"/>
+        <mapperTableEntries name="title" expression="row1.title" type="id_String" nullable="true"/>
+        <mapperTableEntries name="releaseYear" expression="row1.releaseYear" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="url" expression="row1.url" type="id_String" nullable="true"/>
+        <mapperTableEntries name="directorID" expression="row1.directorID" type="id_String" nullable="true"/>
         <mapperTableEntries name="director" expression="row2.director " type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
