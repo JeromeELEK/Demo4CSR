@@ -572,4 +572,7 @@
     <migrationTask xmi:id="_Abt9mN9YEee57PKHRHWn8Q" id="org.talend.repository.model.migration.AutoUpdateRelationsMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_--OEMt9XEee57PKHRHWn8Q" login="jelek@jel.talend.com" firstName="Jerome" lastName="Elek" type="DI"/>
+  <TalendProperties:User xmi:id="_d9XFceQEEeey6ILLZZzu2A" login="ymounib@jel.talend.com" firstName="Yacine" lastName="Mounib" type="DI"/>
+  <TalendProperties:User xmi:id="_d9XFcuQEEeey6ILLZZzu2A" login="ebuchemeyer@jel.talend.com" firstName="Elise" lastName="Buchemeyer" type="DI"/>
+  <TalendProperties:User xmi:id="_d9XFc-QEEeey6ILLZZzu2A" login="meldem@jel.talend.com" firstName="mete" lastName="Eldem" type="DI"/>
 </xmi:XMI>
