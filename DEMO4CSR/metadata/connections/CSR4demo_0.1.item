@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
-  <TalendMetadata:DatabaseConnection xmi:id="_CXHhIN_xEeeio4z98fxhZA" name="CSR4demo" id="_MJvHMN_wEeeio4z98fxhZA" label="CSR4demo" dataPackage="_MhnZsOAGEeeio4z98fxhZA" ContextMode="true" ContextId="_Et3T8OQAEeefVeWuzFFapg" contextName="Default" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://context.parameter_mysql_ip:3306/CSR4DEMO?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="context.parameter_mysql_port" Username="context.parameter_mysql_login" Password="context.parameter_mysql_password" ServerName="context.parameter_mysql_ip" DatasourceName="" FileFieldName="" SID="context.parameter_mysql_db" SqlSynthax="Syntaxe SQL" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="context.parameter_mysql_param" StandardSQL="true" SQLMode="false" UiSchema="">
-    <taggedValue xmi:id="_CXIIMN_xEeeio4z98fxhZA" tag="Is Conn Need Reload" value="true"/>
+  <TalendMetadata:DatabaseConnection xmi:id="_CXHhIN_xEeeio4z98fxhZA" name="CSR4demo" id="_MJvHMN_wEeeio4z98fxhZA" label="CSR4demo" dataPackage="_DZmk0OQCEeefVeWuzFFapg _DZmk0uQCEeefVeWuzFFapg _DZmk0-QCEeefVeWuzFFapg _DZmk1OQCEeefVeWuzFFapg _DZmk1eQCEeefVeWuzFFapg _MhnZsOAGEeeio4z98fxhZA" ContextMode="true" ContextId="_Et3T8OQAEeefVeWuzFFapg" contextName="Default" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://csr4demo.cgodislux5bg.eu-west-1.rds.amazonaws.com:3306/?" dbVersionString="MYSQL_5" Port="context.parameter_mysql_port" Username="context.parameter_mysql_login" Password="context.parameter_mysql_password" ServerName="context.parameter_mysql_ip" DatasourceName="" FileFieldName="" SID="context.parameter_mysql_db" SqlSynthax="Syntaxe SQL" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="context.parameter_mysql_param" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_CXIIMN_xEeeio4z98fxhZA" tag="Is Conn Need Reload" value="false"/>
     <taggedValue xmi:id="_CXYm4N_xEeeio4z98fxhZA" tag="package filter" value=""/>
     <taggedValue xmi:id="_CXetgN_xEeeio4z98fxhZA" tag="Status" value=""/>
     <taggedValue xmi:id="_CXetgd_xEeeio4z98fxhZA" tag="Version" value="0.1"/>
@@ -15,6 +15,11 @@
     <parameters xmi:id="_CXIvQN_xEeeio4z98fxhZA" key="CONN_PARA_KEY_USERNAME" value="context.parameter_mysql_login"/>
     <parameters xmi:id="__BvwsOAEEeeio4z98fxhZA" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
   </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_DZmk0OQCEeefVeWuzFFapg" name="information_schema" dataManager="_CXHhIN_xEeeio4z98fxhZA"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_DZmk0uQCEeefVeWuzFFapg" name="innodb" dataManager="_CXHhIN_xEeeio4z98fxhZA"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_DZmk0-QCEeefVeWuzFFapg" name="mysql" dataManager="_CXHhIN_xEeeio4z98fxhZA"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_DZmk1OQCEeefVeWuzFFapg" name="performance_schema" dataManager="_CXHhIN_xEeeio4z98fxhZA"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_DZmk1eQCEeefVeWuzFFapg" name="sys" dataManager="_CXHhIN_xEeeio4z98fxhZA"/>
   <orgomg.cwm.resource.relational:Catalog xmi:id="_MhnZsOAGEeeio4z98fxhZA" name="CSR4DEMO" dataManager="_CXHhIN_xEeeio4z98fxhZA">
     <ownedElement xsi:type="relational:TdTable" xmi:id="_Y7VIYOAGEeeio4z98fxhZA" name="movies" id="_Y7ReAOAGEeeio4z98fxhZA" label="movies" tableType="TABLE">
       <taggedValue xmi:id="_Y7VIYeAGEeeio4z98fxhZA" tag="Comment" value=""/>
