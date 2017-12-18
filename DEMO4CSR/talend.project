@@ -145,6 +145,7 @@
       <relatedItems xmi:id="_AHqwwODmEee5gvZ2YrhsEA" id="DataQualityDependencies" version="Latest" type="routine"/>
       <relatedItems xmi:id="_AHqwweDmEee5gvZ2YrhsEA" id="TalendStringUtil" version="Latest" type="routine"/>
       <relatedItems xmi:id="_AHqwwuDmEee5gvZ2YrhsEA" id="_MJvHMN_wEeeio4z98fxhZA - movies" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_ZhTbwOQCEeefVeWuzFFapg" id="_Et3T8OQAEeefVeWuzFFapg" version="Latest" type="context"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_ffNbUODmEee5gvZ2YrhsEA">
       <baseItem xmi:id="_ffNbUeDmEee5gvZ2YrhsEA" id="_femXUODmEee5gvZ2YrhsEA" version="0.1" type="job"/>
