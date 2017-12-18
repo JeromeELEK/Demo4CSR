@@ -167,6 +167,7 @@
       <relatedItems xmi:id="_ffNbYeDmEee5gvZ2YrhsEA" id="TalendStringUtil" version="Latest" type="routine"/>
       <relatedItems xmi:id="_ffNbYuDmEee5gvZ2YrhsEA" id="_MJvHMN_wEeeio4z98fxhZA - movies" version="Latest" type="schema"/>
       <relatedItems xmi:id="_2Zm6gODmEee5gvZ2YrhsEA" id="_MJvHMN_wEeeio4z98fxhZA - directors" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_vLdbEOQCEeefVeWuzFFapg" id="_Et3T8OQAEeefVeWuzFFapg" version="Latest" type="context"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_WC8N0ODpEee5gvZ2YrhsEA">
       <baseItem xmi:id="_WC8N0eDpEee5gvZ2YrhsEA" id="_WCtkUODpEee5gvZ2YrhsEA" version="0.1" type="job"/>
