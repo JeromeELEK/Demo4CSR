@@ -5,4 +5,5 @@
   <contextParameter xmi:id="_cD7mAeQBEeefVeWuzFFapg" comment="" name="parameter_mysql_password" prompt="parameter_mysql_password?" promptNeeded="false" type="id_String" value=""/>
   <contextParameter xmi:id="_cD7mAuQBEeefVeWuzFFapg" comment="" name="parameter_mysql_port" prompt="parameter_mysql_port?" promptNeeded="false" type="id_String" value=""/>
   <contextParameter xmi:id="_cD7mA-QBEeefVeWuzFFapg" comment="" name="parameter_mysql_db" prompt="parameter_mysql_db?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_m7EusOQBEeefVeWuzFFapg" comment="" name="parameter_mysql_param" prompt="parameter_mysql_param?" promptNeeded="false" type="id_String" value=""/>
 </talendfile:ContextType>
