@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_01WGoOQAEeefVeWuzFFapg" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_01WGoeQAEeefVeWuzFFapg" comment="" name="CSR4demo1_Login" prompt="CSR4demo1_Login?" promptNeeded="false" type="id_String" value="root"/>
+  <contextParameter xmi:id="_01WGouQAEeefVeWuzFFapg" comment="" name="CSR4demo1_Port" prompt="CSR4demo1_Port?" promptNeeded="false" type="id_String" value="3306"/>
+  <contextParameter xmi:id="_01WGo-QAEeefVeWuzFFapg" comment="" name="CSR4demo1_Database" prompt="CSR4demo1_Database?" promptNeeded="false" type="id_String" value="CSR4DEMO"/>
+  <contextParameter xmi:id="_01WGpOQAEeefVeWuzFFapg" comment="" name="CSR4demo1_AdditionalParams" prompt="CSR4demo1_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
+  <contextParameter xmi:id="_01WGpeQAEeefVeWuzFFapg" comment="" name="CSR4demo1_Server" prompt="CSR4demo1_Server?" promptNeeded="false" type="id_String" value="context.parameter_mysql_ip"/>
+  <contextParameter xmi:id="_01WGpuQAEeefVeWuzFFapg" comment="" name="CSR4demo1_Password" prompt="CSR4demo1_Password?" promptNeeded="false" type="id_Password" value="6HzEA8uTghTp5w1A/VG7xw=="/>
+</talendfile:ContextType>
