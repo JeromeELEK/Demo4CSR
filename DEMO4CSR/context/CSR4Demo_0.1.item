@@ -1,2 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_EuV1EOQAEeefVeWuzFFapg" confirmationNeeded="false" name="Default"/>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_EuV1EOQAEeefVeWuzFFapg" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="__IM2gOQAEeefVeWuzFFapg" comment="" name="parameter_mysql_ip" prompt="parameter_mysql_ip?" promptNeeded="false" type="id_String" value=""/>
+</talendfile:ContextType>
