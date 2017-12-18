@@ -3,6 +3,10 @@
   <context confirmationNeeded="false" name="Default">
     <contextParameter comment="" name="parameter_mysql_db" prompt="parameter_mysql_db?" promptNeeded="false" repositoryContextId="_Et3T8OQAEeefVeWuzFFapg" type="id_String" value="CSR4DEMO"/>
     <contextParameter comment="" name="parameter_mysql_param" prompt="parameter_mysql_param?" promptNeeded="false" repositoryContextId="_Et3T8OQAEeefVeWuzFFapg" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter comment="" name="parameter_mysql_port" prompt="parameter_mysql_port?" promptNeeded="false" repositoryContextId="_Et3T8OQAEeefVeWuzFFapg" type="id_String" value="3306"/>
+    <contextParameter comment="" name="parameter_mysql_login" prompt="parameter_mysql_login?" promptNeeded="false" repositoryContextId="_Et3T8OQAEeefVeWuzFFapg" type="id_String" value="root"/>
+    <contextParameter comment="" name="parameter_mysql_password" prompt="parameter_mysql_password?" promptNeeded="false" repositoryContextId="_Et3T8OQAEeefVeWuzFFapg" type="id_String" value="Talend2017"/>
+    <contextParameter comment="" name="parameter_mysql_ip" prompt="parameter_mysql_ip?" promptNeeded="false" repositoryContextId="_Et3T8OQAEeefVeWuzFFapg" type="id_String" value="csr4demo.cgodislux5bg.eu-west-1.rds.amazonaws.com"/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
