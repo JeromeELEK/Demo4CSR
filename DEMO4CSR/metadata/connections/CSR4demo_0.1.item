@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
-  <TalendMetadata:DatabaseConnection xmi:id="_CXHhIN_xEeeio4z98fxhZA" name="CSR4demo" id="_MJvHMN_wEeeio4z98fxhZA" label="CSR4demo" dataPackage="_MhnZsOAGEeeio4z98fxhZA" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://context.parameter_mysql_ip:3306/CSR4DEMO?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="3306" Username="root" Password="6HzEA8uTghTp5w1A/VG7xw==" ServerName="context.parameter_mysql_ip" DatasourceName="" FileFieldName="" SID="CSR4DEMO" SqlSynthax="Syntaxe SQL" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="">
+  <TalendMetadata:DatabaseConnection xmi:id="_CXHhIN_xEeeio4z98fxhZA" name="CSR4demo" id="_MJvHMN_wEeeio4z98fxhZA" label="CSR4demo" dataPackage="_MhnZsOAGEeeio4z98fxhZA" ContextMode="true" ContextId="_Et3T8OQAEeefVeWuzFFapg" contextName="Default" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://context.parameter_mysql_ip:3306/CSR4DEMO?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="context.parameter_mysql_port" Username="context.parameter_mysql_login" Password="context.parameter_mysql_password" ServerName="context.parameter_mysql_ip" DatasourceName="" FileFieldName="" SID="context.parameter_mysql_db" SqlSynthax="Syntaxe SQL" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="context.parameter_mysql_param" StandardSQL="true" SQLMode="false" UiSchema="">
     <taggedValue xmi:id="_CXIIMN_xEeeio4z98fxhZA" tag="Is Conn Need Reload" value="true"/>
     <taggedValue xmi:id="_CXYm4N_xEeeio4z98fxhZA" tag="package filter" value=""/>
     <taggedValue xmi:id="_CXetgN_xEeeio4z98fxhZA" tag="Status" value=""/>
@@ -12,7 +12,7 @@
     <taggedValue xmi:id="_CZijAN_xEeeio4z98fxhZA" tag="DB ProductName" value="MySQL"/>
     <taggedValue xmi:id="_CZijAd_xEeeio4z98fxhZA" tag="DB ProductVersion" value="5.6.37-log"/>
     <taggedValue xmi:id="_CZijAt_xEeeio4z98fxhZA" tag="DB IdentifierQuoteString" value="`"/>
-    <parameters xmi:id="_CXIvQN_xEeeio4z98fxhZA" key="CONN_PARA_KEY_USERNAME" value="root"/>
+    <parameters xmi:id="_CXIvQN_xEeeio4z98fxhZA" key="CONN_PARA_KEY_USERNAME" value="context.parameter_mysql_login"/>
     <parameters xmi:id="__BvwsOAEEeeio4z98fxhZA" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
   </TalendMetadata:DatabaseConnection>
   <orgomg.cwm.resource.relational:Catalog xmi:id="_MhnZsOAGEeeio4z98fxhZA" name="CSR4DEMO" dataManager="_CXHhIN_xEeeio4z98fxhZA">
