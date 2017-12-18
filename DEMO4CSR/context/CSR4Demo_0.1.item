@@ -6,21 +6,9 @@
   <contextParameter xmi:id="_wYbOZOQLEeey6ILLZZzu2A" comment="" name="parameter_mysql_port" prompt="parameter_mysql_port?" promptNeeded="false" type="id_String" value="3306"/>
   <contextParameter xmi:id="_wYbOZeQLEeey6ILLZZzu2A" comment="" name="parameter_mysql_db" prompt="parameter_mysql_db?" promptNeeded="false" type="id_String" value="CSR4DEMO"/>
   <contextParameter xmi:id="_wYbOZuQLEeey6ILLZZzu2A" comment="" name="parameter_mysql_param" prompt="parameter_mysql_param?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
-  <contextParameter xmi:id="_wYbOZ-QLEeey6ILLZZzu2A" comment="" name="connection_salesforce_authentication_type" prompt="connection_salesforce_authentication_type?" promptNeeded="false" type="id_String" value=""/>
   <contextParameter xmi:id="_wYbOaOQLEeey6ILLZZzu2A" comment="" name="connection_salesforce_basic_username" prompt="connection_salesforce_basic_username?" promptNeeded="false" type="id_String" value="jelek@talend.demo"/>
   <contextParameter xmi:id="_wYbOaeQLEeey6ILLZZzu2A" comment="" name="connection_salesforce_basic_password" prompt="connection_salesforce_basic_password?" promptNeeded="false" type="id_String" value="Talend!90"/>
-  <contextParameter xmi:id="_wYbOauQLEeey6ILLZZzu2A" comment="" name="connection_salesforce_oauth_consumer_key" prompt="connection_salesforce_oauth_consumer_key?" promptNeeded="false" type="id_String" value=""/>
-  <contextParameter xmi:id="_wYbOa-QLEeey6ILLZZzu2A" comment="" name="connection_salesforce_oauth_consumer_secret" prompt="connection_salesforce_oauth_consumer_secret?" promptNeeded="false" type="id_String" value=""/>
-  <contextParameter xmi:id="_wYbObOQLEeey6ILLZZzu2A" comment="" name="connection_salesforce_oauth_callback_host" prompt="connection_salesforce_oauth_callback_host?" promptNeeded="false" type="id_String" value=""/>
-  <contextParameter xmi:id="_wYbObeQLEeey6ILLZZzu2A" comment="" name="connection_salesforce_oauth_callback_port" prompt="connection_salesforce_oauth_callback_port?" promptNeeded="false" type="id_String" value=""/>
-  <contextParameter xmi:id="_wYbObuQLEeey6ILLZZzu2A" comment="" name="connection_salesforce_oauth_token_file" prompt="connection_salesforce_oauth_token_file?" promptNeeded="false" type="id_String" value=""/>
   <contextParameter xmi:id="_wYbOb-QLEeey6ILLZZzu2A" comment="" name="connection_salesforce_basic_security_token" prompt="connection_salesforce_basic_security_token?" promptNeeded="false" type="id_String" value="EFKKhojOhjDmoBwUz9ZBr76rT"/>
   <contextParameter xmi:id="_wYbOcOQLEeey6ILLZZzu2A" comment="" name="connection_salesforce_connection_timeout" prompt="connection_salesforce_connection_timeout?" promptNeeded="false" type="id_String" value="60000"/>
   <contextParameter xmi:id="_wYbOceQLEeey6ILLZZzu2A" comment="" name="connection_salesforce_connection_url" prompt="connection_salesforce_connection_url?" promptNeeded="false" type="id_String" value="https://login.salesforce.com/services/Soap/u/39.0"/>
-  <contextParameter xmi:id="_wYbOcuQLEeey6ILLZZzu2A" comment="" name="connection_salesforce_connection_chuncked" prompt="connection_salesforce_connection_chuncked?" promptNeeded="false" type="id_String" value=""/>
-  <contextParameter xmi:id="_wYbOc-QLEeey6ILLZZzu2A" comment="" name="connection_salesforce_connection_a" prompt="connection_salesforce_connection_a?" promptNeeded="false" type="id_String" value=""/>
-  <contextParameter xmi:id="_wYbOdOQLEeey6ILLZZzu2A" comment="" name="connection_salesforce_connection_b" prompt="connection_salesforce_connection_b?" promptNeeded="false" type="id_String" value=""/>
-  <contextParameter xmi:id="_wYbOdeQLEeey6ILLZZzu2A" comment="" name="connection_salesforce_connection_c" prompt="connection_salesforce_connection_c?" promptNeeded="false" type="id_String" value=""/>
-  <contextParameter xmi:id="_wYbOduQLEeey6ILLZZzu2A" comment="" name="connection_salesforce_connection_d" prompt="connection_salesforce_connection_d?" promptNeeded="false" type="id_String" value=""/>
-  <contextParameter xmi:id="_wYbOd-QLEeey6ILLZZzu2A" comment="" name="connection_salesforce_connection_e" prompt="connection_salesforce_connection_e?" promptNeeded="false" type="id_String" value=""/>
 </talendfile:ContextType>
