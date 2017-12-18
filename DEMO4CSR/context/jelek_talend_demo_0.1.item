@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_iGWh0OQJEeey6ILLZZzu2A" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_iGWh0eQJEeey6ILLZZzu2A" comment="" name="jelek_talend_demo_proxy_host" prompt="jelek_talend_demo_proxy_host?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_iGWh0uQJEeey6ILLZZzu2A" comment="" name="jelek_talend_demo_userPassword_userId" prompt="jelek_talend_demo_userPassword_userId?" promptNeeded="false" type="id_String" value="jelek@talend.demo"/>
+  <contextParameter xmi:id="_iGWh0-QJEeey6ILLZZzu2A" comment="" name="jelek_talend_demo_timeout" prompt="jelek_talend_demo_timeout?" promptNeeded="false" type="id_Integer" value="60000"/>
+  <contextParameter xmi:id="_iGWh1OQJEeey6ILLZZzu2A" comment="" name="jelek_talend_demo_oauth_tokenFile" prompt="jelek_talend_demo_oauth_tokenFile?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_iGWh1eQJEeey6ILLZZzu2A" comment="" name="jelek_talend_demo_apiVersion" prompt="jelek_talend_demo_apiVersion?" promptNeeded="false" type="id_String" value="39.0"/>
+  <contextParameter xmi:id="_iGWh1uQJEeey6ILLZZzu2A" comment="" name="jelek_talend_demo_proxy_port" prompt="jelek_talend_demo_proxy_port?" promptNeeded="false" type="id_Integer" value=""/>
+  <contextParameter xmi:id="_iGWh1-QJEeey6ILLZZzu2A" comment="" name="jelek_talend_demo_oauth_clientId" prompt="jelek_talend_demo_oauth_clientId?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_iGWh2OQJEeey6ILLZZzu2A" comment="" name="jelek_talend_demo_oauth_callbackPort" prompt="jelek_talend_demo_oauth_callbackPort?" promptNeeded="false" type="id_Integer" value=""/>
+  <contextParameter xmi:id="_iGWh2eQJEeey6ILLZZzu2A" comment="" name="jelek_talend_demo_clientId" prompt="jelek_talend_demo_clientId?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_iGWh2uQJEeey6ILLZZzu2A" comment="" name="jelek_talend_demo_proxy_userPassword_password" prompt="jelek_talend_demo_proxy_userPassword_password?" promptNeeded="false" type="id_Password" value=""/>
+  <contextParameter xmi:id="_iGWh2-QJEeey6ILLZZzu2A" comment="" name="jelek_talend_demo_oauth_clientSecret" prompt="jelek_talend_demo_oauth_clientSecret?" promptNeeded="false" type="id_Password" value=""/>
+  <contextParameter xmi:id="_iGWh3OQJEeey6ILLZZzu2A" comment="" name="jelek_talend_demo_endpoint" prompt="jelek_talend_demo_endpoint?" promptNeeded="false" type="id_String" value="https://login.salesforce.com/services/Soap/u/39.0"/>
+  <contextParameter xmi:id="_iGWh3eQJEeey6ILLZZzu2A" comment="" name="jelek_talend_demo_userPassword_password" prompt="jelek_talend_demo_userPassword_password?" promptNeeded="false" type="id_Password" value="wX7muxDYcPZB+lCdb5nfsQ=="/>
+  <contextParameter xmi:id="_iGWh3uQJEeey6ILLZZzu2A" comment="" name="jelek_talend_demo_proxy_userPassword_userId" prompt="jelek_talend_demo_proxy_userPassword_userId?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_iGWh3-QJEeey6ILLZZzu2A" comment="" name="jelek_talend_demo_oauth_callbackHost" prompt="jelek_talend_demo_oauth_callbackHost?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_iGWh4OQJEeey6ILLZZzu2A" comment="" name="jelek_talend_demo_userPassword_securityKey" prompt="jelek_talend_demo_userPassword_securityKey?" promptNeeded="false" type="id_Password" value="HvcpXED60hIjm4Cgv/YISm+eontGN/E/iNBuP2LDGis="/>
+  <contextParameter xmi:id="_iGWh4eQJEeey6ILLZZzu2A" comment="" name="jelek_talend_demo_sessionDirectory" prompt="jelek_talend_demo_sessionDirectory?" promptNeeded="false" type="id_String" value=""/>
+</talendfile:ContextType>
