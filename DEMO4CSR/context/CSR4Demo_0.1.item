@@ -5,5 +5,5 @@
   <contextParameter xmi:id="_uD-rE-QBEeefVeWuzFFapg" comment="" name="parameter_mysql_password" prompt="parameter_mysql_password?" promptNeeded="false" type="id_String" value="Talend2017"/>
   <contextParameter xmi:id="_uD-rFOQBEeefVeWuzFFapg" comment="" name="parameter_mysql_port" prompt="parameter_mysql_port?" promptNeeded="false" type="id_String" value="3306"/>
   <contextParameter xmi:id="_uD-rFeQBEeefVeWuzFFapg" comment="" name="parameter_mysql_db" prompt="parameter_mysql_db?" promptNeeded="false" type="id_String" value="CSR4DEMO"/>
-  <contextParameter xmi:id="_uD-rFuQBEeefVeWuzFFapg" comment="" name="parameter_mysql_param" prompt="parameter_mysql_param?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_uD-rFuQBEeefVeWuzFFapg" comment="" name="parameter_mysql_param" prompt="parameter_mysql_param?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
 </talendfile:ContextType>
