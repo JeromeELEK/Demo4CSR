@@ -15,5 +15,12 @@
   <contextParameter xmi:id="_ItustuQJEeey6ILLZZzu2A" comment="" name="connection_salesforce_oauth_callback_port" prompt="connection_salesforce_oauth_callback_port?" promptNeeded="false" type="id_String" value=""/>
   <contextParameter xmi:id="_Itust-QJEeey6ILLZZzu2A" comment="" name="connection_salesforce_oauth_token_file" prompt="connection_salesforce_oauth_token_file?" promptNeeded="false" type="id_String" value=""/>
   <contextParameter xmi:id="_ItusuOQJEeey6ILLZZzu2A" comment="" name="connection_salesforce_basic_security_token" prompt="connection_salesforce_basic_security_token?" promptNeeded="false" type="id_String" value="EFKKhojOhjDmoBwUz9ZBr76rT"/>
-  <contextParameter xmi:id="_ItusueQJEeey6ILLZZzu2A" comment="" name="connection_salesforce_connection_timeout" prompt="connection_salesforce_connection_timeout?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_ItusueQJEeey6ILLZZzu2A" comment="" name="connection_salesforce_connection_timeout" prompt="connection_salesforce_connection_timeout?" promptNeeded="false" type="id_String" value="60000"/>
+  <contextParameter xmi:id="_2KJx4OQKEeey6ILLZZzu2A" comment="" name="connection_salesforce_connection_url" prompt="connection_salesforce_connection_url?" promptNeeded="false" type="id_String" value="https://login.salesforce.com/services/Soap/u/39.0"/>
+  <contextParameter xmi:id="_2KJx4eQKEeey6ILLZZzu2A" comment="" name="connection_salesforce_connection_chuncked" prompt="connection_salesforce_connection_chuncked?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2KJx4uQKEeey6ILLZZzu2A" comment="" name="connection_salesforce_connection_a" prompt="connection_salesforce_connection_a?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2KJx4-QKEeey6ILLZZzu2A" comment="" name="connection_salesforce_connection_b" prompt="connection_salesforce_connection_b?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2KJx5OQKEeey6ILLZZzu2A" comment="" name="connection_salesforce_connection_c" prompt="connection_salesforce_connection_c?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2KJx5eQKEeey6ILLZZzu2A" comment="" name="connection_salesforce_connection_d" prompt="connection_salesforce_connection_d?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2KJx5uQKEeey6ILLZZzu2A" comment="" name="connection_salesforce_connection_e" prompt="connection_salesforce_connection_e?" promptNeeded="false" type="id_String" value=""/>
 </talendfile:ContextType>
