@@ -16,5 +16,4 @@
   <contextParameter xmi:id="_Itust-QJEeey6ILLZZzu2A" comment="" name="connection_salesforce_oauth_token_file" prompt="connection_salesforce_oauth_token_file?" promptNeeded="false" type="id_String" value=""/>
   <contextParameter xmi:id="_ItusuOQJEeey6ILLZZzu2A" comment="" name="connection_salesforce_basic_security_token" prompt="connection_salesforce_basic_security_token?" promptNeeded="false" type="id_String" value=""/>
   <contextParameter xmi:id="_ItusueQJEeey6ILLZZzu2A" comment="" name="connection_salesforce_connection_timeout" prompt="connection_salesforce_connection_timeout?" promptNeeded="false" type="id_String" value=""/>
-  <contextParameter xmi:id="_W17WcOQJEeey6ILLZZzu2A" comment="" name="new1" prompt="new1?" promptNeeded="false" type="id_String" value=""/>
 </talendfile:ContextType>
