@@ -7,13 +7,13 @@
   <contextParameter xmi:id="_uD-rFeQBEeefVeWuzFFapg" comment="" name="parameter_mysql_db" prompt="parameter_mysql_db?" promptNeeded="false" type="id_String" value="CSR4DEMO"/>
   <contextParameter xmi:id="_uD-rFuQBEeefVeWuzFFapg" comment="" name="parameter_mysql_param" prompt="parameter_mysql_param?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
   <contextParameter xmi:id="_ItussOQJEeey6ILLZZzu2A" comment="" name="connection_salesforce_authentication_type" prompt="connection_salesforce_authentication_type?" promptNeeded="false" type="id_String" value=""/>
-  <contextParameter xmi:id="_ItusseQJEeey6ILLZZzu2A" comment="" name="connection_salesforce_basic_username" prompt="connection_salesforce_basic_username?" promptNeeded="false" type="id_String" value=""/>
-  <contextParameter xmi:id="_ItussuQJEeey6ILLZZzu2A" comment="" name="connection_salesforce_basic_password" prompt="connection_salesforce_basic_password?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_ItusseQJEeey6ILLZZzu2A" comment="" name="connection_salesforce_basic_username" prompt="connection_salesforce_basic_username?" promptNeeded="false" type="id_String" value="jelek@talend.demo"/>
+  <contextParameter xmi:id="_ItussuQJEeey6ILLZZzu2A" comment="" name="connection_salesforce_basic_password" prompt="connection_salesforce_basic_password?" promptNeeded="false" type="id_String" value="Talend!90"/>
   <contextParameter xmi:id="_Ituss-QJEeey6ILLZZzu2A" comment="" name="connection_salesforce_oauth_consumer_key" prompt="connection_salesforce_oauth_consumer_key?" promptNeeded="false" type="id_String" value=""/>
   <contextParameter xmi:id="_ItustOQJEeey6ILLZZzu2A" comment="" name="connection_salesforce_oauth_consumer_secret" prompt="connection_salesforce_oauth_consumer_secret?" promptNeeded="false" type="id_String" value=""/>
   <contextParameter xmi:id="_ItusteQJEeey6ILLZZzu2A" comment="" name="connection_salesforce_oauth_callback_host" prompt="connection_salesforce_oauth_callback_host?" promptNeeded="false" type="id_String" value=""/>
   <contextParameter xmi:id="_ItustuQJEeey6ILLZZzu2A" comment="" name="connection_salesforce_oauth_callback_port" prompt="connection_salesforce_oauth_callback_port?" promptNeeded="false" type="id_String" value=""/>
   <contextParameter xmi:id="_Itust-QJEeey6ILLZZzu2A" comment="" name="connection_salesforce_oauth_token_file" prompt="connection_salesforce_oauth_token_file?" promptNeeded="false" type="id_String" value=""/>
-  <contextParameter xmi:id="_ItusuOQJEeey6ILLZZzu2A" comment="" name="connection_salesforce_basic_security_token" prompt="connection_salesforce_basic_security_token?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_ItusuOQJEeey6ILLZZzu2A" comment="" name="connection_salesforce_basic_security_token" prompt="connection_salesforce_basic_security_token?" promptNeeded="false" type="id_String" value="EFKKhojOhjDmoBwUz9ZBr76rT"/>
   <contextParameter xmi:id="_ItusueQJEeey6ILLZZzu2A" comment="" name="connection_salesforce_connection_timeout" prompt="connection_salesforce_connection_timeout?" promptNeeded="false" type="id_String" value=""/>
 </talendfile:ContextType>
