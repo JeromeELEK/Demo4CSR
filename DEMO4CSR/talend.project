@@ -576,4 +576,7 @@
   <TalendProperties:User xmi:id="_6OIs0eSbEee-Lt5rpqS_UQ" login="user@talend.com"/>
   <TalendProperties:User xmi:id="_YQQAIeSdEeeBuMawtG6Lfg" login="csr4demo@jel.talend.com" firstName="csr4demo" lastName="csr4demo" type="DI"/>
   <TalendProperties:User xmi:id="_6jtn0O-qEee2gdndNg2VWQ" login="htchaha@jel.talend.com" firstName="Herve" lastName="TCHAHA" type="DI"/>
+  <TalendProperties:User xmi:id="_QJ5OIRC9Eei54ZS-Fq99vg" login="jmdemoulian@jel.talend.com" firstName="Jean Marie" lastName="demoulian" type="DI"/>
+  <TalendProperties:User xmi:id="_QJ5OIhC9Eei54ZS-Fq99vg" login="kbentama@jel.talend.com" firstName="kamal" lastName="bentama" type="DI"/>
+  <TalendProperties:User xmi:id="_QJ5OIxC9Eei54ZS-Fq99vg" login="schidiac@jel.talend.com" firstName="sara" lastName="chidiac" type="DI"/>
 </xmi:XMI>
