@@ -13,7 +13,7 @@
     <contextParameter comment="" name="connection_salesforce_connection_timeout" prompt="connection_salesforce_connection_timeout?" promptNeeded="false" repositoryContextId="_Et3T8OQAEeefVeWuzFFapg" type="id_String" value="60000"/>
     <contextParameter comment="" name="connection_salesforce_basic_username" prompt="connection_salesforce_basic_username?" promptNeeded="false" repositoryContextId="_Et3T8OQAEeefVeWuzFFapg" type="id_String" value="jelek@talend.demo"/>
     <contextParameter comment="" name="parameter_tdp_login" prompt="parameter_tdp_login?" promptNeeded="false" type="id_String" value="jelek@jel.talend.com"/>
-    <contextParameter comment="" name="parameter_tdp_password" prompt="parameter_tdp_password?" promptNeeded="false" type="id_String" value="eKoo7aigah-"/>
+    <contextParameter comment="" name="parameter_tdp_password" prompt="parameter_tdp_password?" promptNeeded="false" type="id_String" value="tobefill"/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
@@ -196,8 +196,6 @@
     <elementParameter field="PASSWORD" name="PASSWORD" value="8pW6Nmy2kuf2zP4MbD5/0oUXrF6NQyUX1gy9D2fGdbA="/>
     <elementParameter field="DATA_PREP_ID" name="PREPARATION_ID" value="&quot;fafb204f-0588-47b0-beb1-765b7028bd25&quot;"/>
     <elementParameter field="TEXT" name="PREPARATION_NAME" value="movies Preparation" show="false"/>
-    <elementParameter field="DP_VERSION" name="VERSION_NAME" value=""/>
-    <elementParameter field="TEXT" name="VERSION_ID" value="" show="false"/>
     <elementParameter field="FETCH_SCHEMA" name="FETCH_SCHEMA" value=""/>
     <elementParameter field="TEXT" name="LIMIT_PREVIEW" value="1000"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
