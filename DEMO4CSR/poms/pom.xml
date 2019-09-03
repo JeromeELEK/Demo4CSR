@@ -17,6 +17,7 @@
     <module>jobs/process/TIC/e_readingdatabase_dataprep_filtering_catchreject_salesforce_0.1</module>
     <module>jobs/process/encours/database_to_salesforce_0.1</module>
     <module>jobs/process/encours/test_0.1</module>
+    <module>code/routines</module>
   </modules>
   <properties>
     <signer.version>7.2.1</signer.version>
