@@ -1,5 +1,5 @@
 # Talend CI/CD on Azure DevOps
-# Build Pipeline for building and publishing on Nexus
+# Build Pipeline for building and publishing on Talend Cloud
 
 trigger: none
 pool:
@@ -31,7 +31,8 @@ steps:
         mavenOptions: |
           -Dlicense.path=$(license.secureFilePath)
           -Dupdatesite.path=$(updatesite_path)
-          -DaltDeploymentRepository=talend-releases::default::$(NEXUS)/repository/talend-releases
+          -Dservice.url=$(CLOUD_URL)
+          -Dcloud.publisher.screenshot=true
           -Xmx3096m -Xmx1024m
-        options: '--settings $(settings_xml.secureFilePath) -pl jobs/process/$(job_name)_$(job_version) -am'
-        goals: 'clean deploy'
+        options: '--settings $(settings_xml.secureFilePath) -Pcloud-publisher -pl jobs/process/$(job_name)_$(job_version) -am'
+        goals: 'deploy'
