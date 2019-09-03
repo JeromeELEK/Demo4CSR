@@ -10,7 +10,7 @@ variables:
 - name: project_name
   value: 'DEMO4CSR'
 - name: job_name
-  value: 'TIC/a_readingdatabase'
+  value: 'encours/test'
 - name: job_version
   value: '0.1'
 
