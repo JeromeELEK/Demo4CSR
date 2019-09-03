@@ -1,3 +1,12 @@
  * Task [Fix a problem of project resources linked to items] : Nothing to do
  * Task [AutoUpdateRelationsMigrationTask] : Applied successfully
  ---=== End of migration ===---
+ ---=== Start Migration of project Demo4CSR ===---
+ * Task [ResetMavenTemplateMigrationTask] : Applied successfully
+ * Task [UpdateToJava8VersionMigrationTask] : Nothing to do
+ * Task [Add Product Values] : Nothing to do
+ * Task [UpdateGitIgnoreMigrationTask] : Applied successfully
+ * Task [ChangeDriverJarForProjectSetting] : Nothing to do
+ * Task [RepositoryProjectDate] : Nothing to do
+ * Task [UpdateJobPomPropertiesMigrationTask] : Nothing to do
+ * Task [UpdateBeansDefaultLibrariesMigrationTask] : Nothing to do
