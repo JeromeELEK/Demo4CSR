@@ -8,9 +8,9 @@ pool:
 variables:
 - group: Talend Configuration
 - name: project_name
-  value: 'Demo4CSR'
+  value: 'DEMO4CSR'
 - name: job_name
-  value: 'A_ReadingDatabase'
+  value: 'TIC/a_readingdatabase'
 - name: job_version
   value: '0.1'
 
