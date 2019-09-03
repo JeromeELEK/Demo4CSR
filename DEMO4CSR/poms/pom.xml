@@ -8,6 +8,16 @@
   <packaging>pom</packaging>
   <name>DEMO4CSR Codes Master</name>
   <url>http://www.talend.org/</url>
+  <modules>
+    <module>jobs/process/Init/initdatabase_0.1</module>
+    <module>jobs/process/TIC/a_readingdatabase_0.1</module>
+    <module>jobs/process/TIC/b_readingdatabasefiltering_0.1</module>
+    <module>jobs/process/TIC/c_readingdatabasefiltering_catchreject_0.1</module>
+    <module>jobs/process/TIC/d_readingdatabasefiltering_catchreject_salesforce_0.1</module>
+    <module>jobs/process/TIC/e_readingdatabase_dataprep_filtering_catchreject_salesforce_0.1</module>
+    <module>jobs/process/encours/database_to_salesforce_0.1</module>
+    <module>jobs/process/encours/test_0.1</module>
+  </modules>
   <properties>
     <signer.version>7.2.1</signer.version>
     <talend.project.name>DEMO4CSR</talend.project.name>
